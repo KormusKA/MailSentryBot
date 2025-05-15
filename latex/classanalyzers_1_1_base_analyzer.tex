@@ -1,0 +1,49 @@
+\doxysection{Класс analyzers.\+Base\+Analyzer}
+\hypertarget{classanalyzers_1_1_base_analyzer}{}\label{classanalyzers_1_1_base_analyzer}\index{analyzers.BaseAnalyzer@{analyzers.BaseAnalyzer}}
+Граф наследования\+:analyzers.\+Base\+Analyzer\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classanalyzers_1_1_base_analyzer}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+list \mbox{\hyperlink{classanalyzers_1_1_base_analyzer_a62aca58ab26d01be75004ed97c8b10d1}{analyze\+\_\+message}} (self, str text)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+\begin{DoxyVerb}Базовый класс для анализаторов сообщений.
+
+Определяет интерфейс для анализа текста.
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Методы}
+\Hypertarget{classanalyzers_1_1_base_analyzer_a62aca58ab26d01be75004ed97c8b10d1}\index{analyzers.BaseAnalyzer@{analyzers.BaseAnalyzer}!analyze\_message@{analyze\_message}}
+\index{analyze\_message@{analyze\_message}!analyzers.BaseAnalyzer@{analyzers.BaseAnalyzer}}
+\doxysubsubsection{\texorpdfstring{analyze\_message()}{analyze\_message()}}
+{\footnotesize\ttfamily \label{classanalyzers_1_1_base_analyzer_a62aca58ab26d01be75004ed97c8b10d1} 
+ list analyzers.\+Base\+Analyzer.\+analyze\+\_\+message (\begin{DoxyParamCaption}\item[{}]{self}{, }\item[{str}]{text}{}\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Анализирует текст сообщения.
+
+Args:
+    text (str): Текст для анализа
+
+Raises:
+    NotImplementedError: Если метод не реализован в подклассе
+
+Returns:
+    list: Результаты анализа
+\end{DoxyVerb}
+ 
+
+Переопределяется в \mbox{\hyperlink{classanalyzers_1_1_phishing_analyzer_a1387baa9cc7a7cbaa81489565f05c044}{analyzers.\+Phishing\+Analyzer}}.
+
+
+
+Объявления и описания членов класса находятся в файле\+:\begin{DoxyCompactItemize}
+\item 
+analyzers.\+py\end{DoxyCompactItemize}
